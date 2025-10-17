@@ -1,0 +1,58 @@
+[2025-10-16 17:20:51] Erro inesperado ao processar a API: API retornou status: 200. Usando moedas padrão.
+[2025-10-16 17:20:51] Agendador de cotações iniciado (1 hora).
+[2025-10-16 17:20:58] Falha na conversão: You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]
+[2025-10-16 17:20:58] Falha na conversão: You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]
+[2025-10-16 17:21:00] Falha na conversão: You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]
+[2025-10-16 17:22:02] Lista de moedas carregada da API com sucesso.
+[2025-10-16 17:22:02] Agendador de cotações iniciado (1 hora).
+[2025-10-16 17:22:04] Conversão: 5.0 USD -> 27.24 BRL
+[2025-10-16 17:22:04] Conversão: 52.0 USD -> 283.30 BRL
+[2025-10-16 17:22:17] Falha na conversão: Taxa de câmbio para BRL não disponível.
+[2025-10-16 17:22:26] Conversão: 52.0 BRL -> 8.19 EUR
+[2025-10-16 17:23:39] Lista de moedas carregada da API com sucesso.
+[2025-10-16 17:23:39] Agendador de cotações iniciado (1 hora).
+[2025-10-16 17:23:43] Conversão: 5.0 USD -> 27.24 BRL
+[2025-10-16 17:23:43] Conversão: 50.0 USD -> 272.40 BRL
+[2025-10-16 17:23:50] Conversão: 50.0 EUR -> 317.32 BRL
+[2025-10-16 17:24:08] Conversão: 50.0 EUR -> 58.25 USD
+[2025-10-16 17:24:10] Conversão: 50.0 EUR -> 967250.00 IDR
+[2025-10-16 17:24:12] Conversão: 50.0 EUR -> 5121.50 INR
+[2025-10-16 17:24:12] Conversão: 50.0 HUF -> 13.14 INR
+[2025-10-16 17:24:13] Conversão: 50.0 IDR -> 0.26 INR
+[2025-10-16 17:24:14] Falha na conversão: Taxa de câmbio para IDR não disponível.
+[2025-10-17 00:21:14] Lista de moedas base carregada para AwesomeAPI.
+[2025-10-17 00:22:07] Lista de moedas base carregada para AwesomeAPI.
+[2025-10-17 00:22:56] Lista de moedas base carregada para AwesomeAPI.
+[2025-10-17 00:22:56] Agendador de cotações iniciado (30 minutos).
+[2025-10-17 00:23:05] Falha na conversão: Taxa de câmbio para USD-BRL não disponível.
+[2025-10-17 00:23:05] Falha na conversão: Taxa de câmbio para USD-BRL não disponível.
+[2025-10-17 00:23:06] Falha na conversão: Taxa de câmbio para USD-BRL não disponível.
+[2025-10-17 00:23:10] Falha na conversão: Taxa de câmbio para USD-BRL não disponível.
+[2025-10-17 00:26:52] Lista de moedas base carregada para AwesomeAPI.
+[2025-10-17 00:26:52] Agendador de cotações iniciado (30 minutos).
+[2025-10-17 00:27:53] Lista de moedas base carregada para AwesomeAPI.
+[2025-10-17 00:27:53] Arquivo de estilo 'style.qss' carregado com sucesso.
+[2025-10-17 00:27:53] Agendador de cotações iniciado (30 minutos).
+2025-10-17 11:34:26,036 - INFO - Configurações carregadas com sucesso.
+2025-10-17 11:34:26,038 - INFO - Aplicação Conversor de Moedas Iniciada.
+2025-10-17 11:34:39,367 - ERROR - Erro de Validação/API: Par de moedas USD-BRL não encontrado na API.
+2025-10-17 11:34:46,287 - ERROR - Erro de Validação/API: Par de moedas USD-BRL não encontrado na API.
+2025-10-17 11:36:35,885 - INFO - Configurações salvas com sucesso ao fechar.
+2025-10-17 11:37:47,031 - INFO - Estilo 'style.qss' carregado com sucesso.
+2025-10-17 11:37:47,085 - INFO - Configurações carregadas com sucesso.
+2025-10-17 11:37:47,089 - INFO - Aplicação Conversor de Moedas Iniciada.
+2025-10-17 11:37:51,373 - INFO - Conversão: 50.0 USD -> 271.97 BRL (Cotação: 5.4393)
+2025-10-17 11:38:00,076 - INFO - Conversão: 50.0 EUR -> 58.44 USD (Cotação: 1.1687)
+2025-10-17 11:38:02,130 - INFO - Configurações salvas com sucesso ao fechar.
+2025-10-17 11:41:14,485 - INFO - Estilo 'style.qss' carregado com sucesso.
+2025-10-17 11:41:14,514 - INFO - Configurações carregadas com sucesso.
+2025-10-17 11:41:14,514 - INFO - Aplicação Conversor de Moedas Iniciada.
+2025-10-17 11:41:18,562 - INFO - Iniciando conversão de 50 EUR para USD.
+2025-10-17 11:41:18,768 - INFO - Conversão concluída. Resultado: 58.31 USD (Cotação: 1.1662).
+2025-10-17 11:41:28,422 - INFO - Iniciando conversão de 50 BRL para USD.
+2025-10-17 11:41:28,556 - INFO - Conversão concluída. Resultado: 9.19 USD (Cotação: 0.1838).
+2025-10-17 11:41:46,735 - INFO - Iniciando conversão de 60 USD para BRL.
+2025-10-17 11:41:46,867 - INFO - Conversão concluída. Resultado: 326.50 BRL (Cotação: 5.4416).
+2025-10-17 11:42:01,601 - INFO - Iniciando conversão de 500 BRL para USD.
+2025-10-17 11:42:01,736 - INFO - Conversão concluída. Resultado: 91.92 USD (Cotação: 0.1838).
+2025-10-17 11:42:06,763 - INFO - Configurações salvas com sucesso ao fechar.

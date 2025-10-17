@@ -1,0 +1,11 @@
+#PySide6: Biblioteca para criacao da Interface Grafica (janelas, botoes, etc.)
+
+PySide6==6.6.0
+
+#Requests: Biblioteca para fazer requisicoes HTTP (acesso a internet)
+
+requests==2.31.0
+
+#pyinstaller: Ferramenta para empacotar o projeto Python em um arquivo executavel (build)
+
+pyinstaller==6.1.0

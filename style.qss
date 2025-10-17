@@ -1,0 +1,134 @@
+/*
+ * Arquivo de Estilo para PySide6 (QSS - Qt Style Sheets)
+ * Tema Escuro e Moderno.
+ */
+
+/* ================== Base e Janela ================== */
+
+/* PALETA DE CORES:
+   - Fundo Principal: #1e2a3a
+   - Superfície (Cards/Inputs): #283747
+   - Texto Principal: #ecf0f1
+   - Accent/Ação: #4a90e2 (Azul vibrante)
+   - Verde (Salvar): #27ae60
+   - Amarelo (Resultado): #f1c40f
+*/
+
+QMainWindow, QWidget {
+    background-color: #1e2a3a;
+    color: #ecf0f1;
+    font-family: "Inter", Arial, sans-serif; /* Usando a fonte Inter configurada no app.setFont() */
+}
+
+QFrame {
+    background-color: transparent;
+}
+
+/* ================== Labels ================== */
+
+QLabel {
+    color: #ecf0f1;
+    padding: 5px 0;
+}
+
+QLabel#HeaderLabel {
+    font-size: 10pt;
+    font-weight: 500;
+    color: #bdc3c7;
+}
+
+QLabel#FooterLabel {
+    font-size: 9pt;
+    color: #8899a6;
+    padding-top: 10px;
+}
+
+/* Estilo para a área de resultado (Display Principal) */
+QLabel#ResultadoDisplay {
+    background-color: #2e4359;
+    border-radius: 12px;
+    color: #f1c40f;
+    font-size: 22pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+/* ================== QLineEdit (Input) ================== */
+QLineEdit {
+    border: 1px solid #34495e;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #283747;
+    color: #ecf0f1;
+    font-size: 11pt;
+}
+
+QLineEdit:focus {
+    border: 1px solid #4a90e2;
+    background-color: #34495e;
+}
+
+/* ================== QComboBox (Dropdowns) ================== */
+QComboBox {
+    border: 1px solid #34495e;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #283747;
+    color: #ecf0f1;
+    min-height: 30px;
+}
+
+QComboBox:focus {
+    border: 1px solid #4a90e2;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left-width: 1px;
+    border-left-color: #34495e;
+    border-left-style: solid;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid #34495e;
+    border-radius: 8px;
+    background-color: #283747;
+    color: #ecf0f1;
+    selection-background-color: #4a90e2;
+    selection-color: #ffffff;
+    padding: 5px;
+}
+
+/* ================== QPushButton (Botões) ================== */
+QPushButton {
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+QPushButton:hover {
+    background-color: #347ab7;
+}
+
+QPushButton:pressed {
+    background-color: #2b67a2;
+}
+
+/* Estilo específico para o botão Salvar */
+QPushButton#SalvarButton {
+    background-color: #27ae60; /* Verde */
+}
+QPushButton#SalvarButton:hover {
+    background-color: #229954;
+}
